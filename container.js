@@ -19,7 +19,7 @@ function myTab() {
     const theme = useTheme()
     return (
         <Tab.Navigator
-            initialRouteName="Todo"
+            initialRouteName="Home"
             barStyle={{ backgroundColor: "#EDEDED" }}
             labeled={false}
             screenOptions={({ route }) => ({
